@@ -8,8 +8,18 @@ Launch and Connect to the Instance
 
 Docker Setup on EC2
 
-Run the following commands:
+Run the following commands to install & start docker:
     - sudo yum update -y
     - sudo yum install docker
     - sudo service docker start
     - sudo usermod -a -G docker ec2-user
+    
+Create a Dockerfile:
+    - touch Dockerfile
+    - nano Dockerfile
+Enter the contents of the Dockerfile 
+    - 'Ctrl + 0' & 'Enter' to Save
+    - 'Ctrl + X' to Exit
+    
+
+    
