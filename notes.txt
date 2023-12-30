@@ -1,3 +1,14 @@
+IAM Setup:
+    Set ROOT User up with MFA.
+    Enable IAM Identity Center in AWS. - This turned out irrelevant
+    Create an IAM User & register an Access Key
+    
+ECR Setup:
+    
+    
+ECS Setup:
+    
+
 EC2 Setup:
 
 Spin up an EC2 AMI (Linux) Instance
