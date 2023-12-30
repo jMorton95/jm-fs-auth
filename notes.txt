@@ -1,2 +1,15 @@
 EC2 Setup:
 
+Spin up an EC2 AMI (Linux) Instance
+Enable KVP SSH Login & store key locally
+Start with a T3.Micro (2 V-CPU, 1GB RAM)
+Enable HTTPs traffic from the internet
+Launch and Connect to the Instance
+
+Docker Setup on EC2
+
+Run the following commands:
+    - sudo yum update -y
+    - sudo yum install docker
+    - sudo service docker start
+    - sudo usermod -a -G docker ec2-user
